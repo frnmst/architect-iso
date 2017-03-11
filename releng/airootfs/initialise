@@ -70,13 +70,13 @@ download_aif() {
   case $(cat ${OPT}) in
        "1") # Stable (Net)
             clear
-            wget -N https://github.com/CarlDuff/aif/archive/master.zip
+            wget -N https://github.com/winnie71/aif/archive/master.zip
             unzip -o master.zip -d /
             /aif-master/aif
             ;;
        "2") # Development Version
             clear
-            wget -N https://github.com/CarlDuff/aif-dev/archive/master.zip
+            wget -N https://github.com/winnie71/aif-dev/archive/master.zip
             unzip -o master.zip -d /
             /aif-dev-master/aif
             ;;
